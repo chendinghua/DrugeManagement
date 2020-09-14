@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\android_project\Druge\DrugeManagement\boommenu\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12c08de304868c9e5e5f47925c4615743059de61">
+        <dex dex="E:\android_project\Druge\DrugeManagement\build\intermediates\pre-dexed\debug\classes_802f70405307bc7984d10a1de76a1bd50b879434.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_project\Druge\DrugeManagement\libs\cw-deviceapi20190815.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7643907c7ac8bfc75abe5179c64814a787bfc49">
+        <dex dex="E:\android_project\Druge\DrugeManagement\build\intermediates\pre-dexed\debug\cw-deviceapi20190815_09ab8d7df83b498960b820fb7c9d29892c0df8c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_project\Druge\DrugeManagement\libs\fastjson-1.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbcf8415e32859b473b336e5ac6422ee69b1185b">
+        <dex dex="E:\android_project\Druge\DrugeManagement\build\intermediates\pre-dexed\debug\fastjson-1.2.4_48326f43e2377b234bf8c1d8861f2692d49ec2a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_project\Druge\DrugeManagement\libs\nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\android_project\Druge\DrugeManagement\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0_638d41ab7c40318c482b137715c605b3dc505e0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_project\Druge\DrugeManagement\libs\jxl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="955fa72ef2e3d5a45db59d84802401f75bc973a5">
+        <dex dex="E:\android_project\Druge\DrugeManagement\build\intermediates\pre-dexed\debug\jxl_628eabfec2c400526b64f61e1d3ccf03270550f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_project\Druge\DrugeManagement\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f27a85541745b0aa4f94caeb44237ad7383d992b">
+        <dex dex="E:\android_project\Druge\DrugeManagement\build\intermediates\pre-dexed\debug\classes_e4c824c220f6b2d66048b33b478c90e81e3eb25e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_project\Druge\DrugeManagement\libs\xUtils-2.5.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7b27a19b6f7ed3d26d9157147545c94ea8ee535">
+        <dex dex="E:\android_project\Druge\DrugeManagement\build\intermediates\pre-dexed\debug\xUtils-2.5.5_cd66778af601e903b64a9d90bdcce5dbc4f28374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_project\Druge\DrugeManagement\libs\jtds-1.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fc4d17efa80dc375767b0c1006584175212e9dc">
+        <dex dex="E:\android_project\Druge\DrugeManagement\build\intermediates\pre-dexed\debug\jtds-1.3.1_90777f77049147cdf274560c7d519109a17f5222.jar" />
+    </item>
+
+</items>

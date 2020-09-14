@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_login_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.activity.LoginActivity"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/image_setting"
+            android:onClick="updateSetting"
+            />
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/mLoginProgressBar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/mLayoutAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/comm_padding"
+        >
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bg_hsj_logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_vertical"
+            android:text="用户名:"
+            android:textColor="@color/font_desc"
+            android:textSize="@dimen/font_content" />
+
+        <EditText
+
+            android:id="@+id/mEditTextAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sweeping"
+            android:gravity="center_vertical"
+            android:hint="请输入用户名"
+            android:padding="@dimen/comm_padding"
+            android:textColor="@color/font_desc"
+            android:textColorHint="@color/font_content"
+            android:textSize="@dimen/font_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="密码:"
+
+            android:textColor="@color/font_desc"
+            android:textSize="@dimen/font_content" />
+
+        <EditText
+            android:id="@+id/mEditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sweeping"
+            android:gravity="center_vertical"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:padding="@dimen/comm_padding"
+            android:textColor="@color/font_desc"
+            android:textColorHint="@color/font_content"
+            android:textSize="@dimen/font_content" />
+
+        <Button
+
+            android:layout_marginTop="30dp"
+            android:id="@+id/mButtonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sweeping_blue"
+            android:gravity="center"
+            android:text="登陆"
+            android:onClick="commitData"
+            />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\ic_delete_black_24dp.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\ic_delete_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\menu_multiple_select_done.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\menu_multiple_select_done.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\ic_done_black_24dp.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\ic_done_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\ic_check_box_outline_blank_black_24dp.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\ic_check_box_outline_blank_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\ic_arrow_back_black_24dp.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\ic_radio_button_unchecked_black_24dp.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\ic_radio_button_unchecked_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\menu_select.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\menu_select.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\menu_multiple_select_delete.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\menu_multiple_select_delete.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\ic_check_box_black_24dp.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\ic_check_box_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\ic_select_all_black_24dp.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\ic_select_all_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\menu_multiple_select_done_delete.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\menu_multiple_select_done_delete.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\menu_multiple_select_done_delete_all.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\menu_multiple_select_done_delete_all.xml"
+    },
+    {
+        "merged": "E:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\res\\merged\\debug\\menu\\ic_radio_button_checked_black_24dp.xml",
+        "source": "E:\\android_project\\Druge\\DrugeManagement\\src\\main\\res\\menu\\ic_radio_button_checked_black_24dp.xml"
+    }
+]

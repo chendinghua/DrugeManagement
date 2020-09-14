@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.druge"
+    android:versionCode="2"
+    android:versionName="1.1" >
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 申请拍照权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <uses-feature android:name="android.hardware.Camera"/>
+    <uses-feature android:name="android.hardware.Camera.autoFocus"/>
+    <permission
+        android:name="android.permission.FLASHLIGHT"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal"/>
+
+
+
+    <uses-permission android:name="android.intent.action.HOME_ENABLED"></uses-permission>
+
+    <uses-permission android:name="android.intent.action.MENU_ENABLED"></uses-permission>
+
+    <uses-permission android:name="android.intent.action.PANEL_ENABLED"></uses-permission>
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bg_hsj_logo"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        >
+        <activity
+            android:name="com.example.druge.ui.activity.UHFMainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+
+        </activity>
+
+
+      <!--  <activity android:name=".ui.activity.MainActivity"
+            android:theme="@style/TestAppTheme"
+            >
+          &lt;!&ndash;  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>&ndash;&gt;
+
+        </activity>-->
+        <activity android:name="com.example.druge.ui.activity.LoginActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--主页面-->
+        <activity android:name="com.example.druge.ui.activity.HomeActivity"
+            android:theme="@style/BoomMenuTheme"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            >
+
+        </activity>
+        <!--个人信息 关于页面-->
+    <activity android:name="com.example.druge.ui.activity.AboutInfoActivity"/>
+        <!--个人信息 PDA设置页面-->
+        <activity android:name="com.example.druge.ui.activity.PdaParamSettingActivity"/>
+        <!--个人信息 用户信息页面-->
+        <activity android:name="com.example.druge.ui.activity.UserInfoSettingActivity"/>
+        <!--任务详情页面-->
+   <activity android:name="com.example.druge.ui.activity.TaskListInfoActivity"></activity>
+
+
+        <!--盘点操作页面-->
+        <activity android:name="com.example.druge.ui.activity.InventoryOperationActivity">
+
+        </activity>
+    <!--新增页面-->
+        <activity android:name="com.example.druge.ui.activity.AssetsAddInfoActivity"></activity>
+
+<!--借出归还页面-->
+        <activity android:name="com.example.druge.ui.activity.AssetsLoanInfoActivity"></activity>
+    <!--替换页面-->
+        <activity android:name="com.example.druge.ui.activity.ReplaceOperationActivity"
+            android:theme="@style/MyAppTheme"
+            ></activity>
+        <!--版本更新路径和接口访问路径修改页面-->
+        <activity android:name="com.example.druge.ui.activity.SettingActionUrlActivity">
+
+
+        </activity>
+
+        <activity android:name=".ui.activity.LocalhostDataCommitOrRollbackActivity"
+            android:theme="@style/TestAppTheme"
+            >
+       <!--     <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+
+        </activity>
+    </application>
+
+
+    <!--扫描二维码需要添加一下权限-->
+    <uses-permission
+        android:name="android.permission.disable_keyguard"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+</manifest>

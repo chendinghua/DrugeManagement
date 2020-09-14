@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="gpuimage-plus-2.5.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/89bcc073830c5be9d275c5bcba9e30804271a989/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/89bcc073830c5be9d275c5bcba9e30804271a989/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wysaid/gpuimage-plus/2.5.1/4795fa288ce0785e0c0e319cd58827532d075900/gpuimage-plus-2.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

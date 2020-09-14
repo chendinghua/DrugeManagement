@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="编号"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="序列号"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="描述"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="操作员"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="操作时间"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="操作状态"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+
+    </LinearLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/sf_scrap_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+    <ListView
+        android:id="@+id/lv_scrap_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+</android.support.v4.widget.SwipeRefreshLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <com.example.druge.ui.page.PageControl
+            android:id="@+id/scrap_PageControl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </com.example.druge.ui.page.PageControl>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <Button
+        android:id="@+id/btn_scanner_scrap"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_background_blue_button"
+        android:text="申请报废(扫描)" />
+
+
+        <Button
+            android:id="@+id/btn_scanner_maintain_putOn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_background_blue_button"
+            android:text="维修入库(扫描)" />
+    </LinearLayout>
+</LinearLayout>

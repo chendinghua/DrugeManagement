@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <TextView
+        android:id="@+id/tv_title_task_storage_id"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="库存id"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_title_task_rfid"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="RFID"
+        />
+    <TextView
+        android:id="@+id/tv_title_task_serialNo"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="序列号"
+        />
+    <TextView
+        android:id="@+id/tv_title_task_productType"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="产品类型"
+        />
+    <TextView
+        android:id="@+id/tv_title_task_productName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="产品类型"
+        />
+
+    <TextView
+        android:id="@+id/tv_title_task_StorageStatusName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="资产状态"
+        />
+
+</LinearLayout>

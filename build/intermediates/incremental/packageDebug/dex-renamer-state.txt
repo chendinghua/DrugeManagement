@@ -1,0 +1,4 @@
+#Sat Sep 12 16:07:44 CST 2020
+base.0=E\:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\android_project\\Druge\\DrugeManagement\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

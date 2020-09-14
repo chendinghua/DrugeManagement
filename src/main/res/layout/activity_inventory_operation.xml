@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:text="需要扫描数量"
+            android:gravity="right|center_vertical"
+            />
+        <TextView
+            android:id="@+id/tv_inventory_operation_current_count"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:text="异常数量"
+            android:gravity="right|center_vertical"
+            />
+        <TextView
+
+            android:id="@+id/tv_inventory_operation_error_count"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:text="扫到数量"
+            android:gravity="right|center_vertical"
+            />
+        <TextView
+
+            android:id="@+id/tv_inventory_operation_success_count"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:orientation="horizontal">
+
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="RFID"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="序列号"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="药品名称" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="药品类型" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="所属药箱" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="库存状态" />
+</LinearLayout>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/sf_inventory_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:visibility="gone"
+            >
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+            <com.example.druge.ui.view.ScrollListView
+                android:id="@+id/lv_inventory_operation_operation_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                ></com.example.druge.ui.view.ScrollListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/layout_result"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="描述"
+            />
+        <EditText
+            android:id="@+id/et_inventory_operation_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_inventory_operation_low_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="低频" />
+
+        <Button
+            android:id="@+id/btn_inventory_operation_medium_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中频" />
+
+        <Button
+            android:id="@+id/btn_inventory_operation_high_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高频" />
+
+        <TextView
+            android:id="@+id/tv_inventory_operation_current_frequency"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_inventory_operation_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫描"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_inventory_operation_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="返回" />
+
+        <Button
+            android:id="@+id/btn_inventory_refresh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="刷新" />
+        <Button
+            android:id="@+id/btn_inventory_operation_commit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
